@@ -1,0 +1,36 @@
+[INFO] - {12-08-2025 18:54:20} [main] [Listener.testNGlistener] - Execution started
+[INFO] - {12-08-2025 18:54:20} [main] [Listener.testNGlistener] - Previous Logs directory cleaned
+[INFO] - {12-08-2025 18:54:20} [main] [Listener.testNGlistener] - Previous Allure directory cleaned
+[INFO] - {12-08-2025 18:54:20} [main] [Listener.testNGlistener] - Test Suite  Wikipedia demo started
+[INFO] - {12-08-2025 18:54:49} [main] [Listener.testNGlistener] - Test Case  skipBoardingPage started
+[INFO] - {12-08-2025 18:54:51} [main] [Pages.P01_landingPage] - Skip btn is clicked
+[INFO] - {12-08-2025 18:54:51} [main] [Utils.Allure.AllureClass] - Add log to allure
+[INFO] - {12-08-2025 18:54:52} [main] [Listener.testNGlistener] - Test Case  skipBoardingPage passed
+[INFO] - {12-08-2025 18:54:52} [main] [Listener.testNGlistener] - Test Case  SearchTest started
+[INFO] - {12-08-2025 18:54:57} [main] [Pages.P02_searchPage] - search input is clicked
+[INFO] - {12-08-2025 18:55:02} [main] [Pages.P02_searchPage] - text is entered :  automation testing
+[INFO] - {12-08-2025 18:55:06} [main] [Pages.P02_searchPage] - Assert on search page is passed : Test automation
+[INFO] - {12-08-2025 18:55:07} [main] [Pages.P02_searchPage] - first result is clicked
+[INFO] - {12-08-2025 18:55:17} [main] [Pages.P02_searchPage] - window is skipped
+[INFO] - {12-08-2025 18:55:21} [main] [Pages.P02_searchPage] - Assert on text selection is passed : Test automation
+[INFO] - {12-08-2025 18:55:22} [main] [Pages.P02_searchPage] - Assert on content selection is passed : (separate from the software being tested) for controlling the execution of tests and comparing actual outcome with predicted.
+[INFO] - {12-08-2025 18:55:23} [main] [Pages.P02_searchPage] - save button is clicked
+[INFO] - {12-08-2025 18:55:28} [main] [Pages.P02_searchPage] - Assert on save action is passed : Saved Test automation. Do you want to add it to a list?
+[INFO] - {12-08-2025 18:55:29} [main] [Pages.P02_searchPage] - add to list button is clicked
+[INFO] - {12-08-2025 18:55:36} [main] [Pages.P02_searchPage] - text is entered :  test automation list list is created
+[INFO] - {12-08-2025 18:55:39} [main] [Pages.P02_searchPage] - view list button is clicked
+[INFO] - {12-08-2025 18:55:39} [main] [Utils.Allure.AllureClass] - Add log to allure
+[INFO] - {12-08-2025 18:55:39} [main] [Listener.testNGlistener] - Test Case  SearchTest passed
+[INFO] - {12-08-2025 18:55:39} [main] [Listener.testNGlistener] - Test Case  addItemToList started
+[INFO] - {12-08-2025 18:55:44} [main] [Pages.P03_viewListPage] - goto button is clicked
+[INFO] - {12-08-2025 18:55:45} [main] [Pages.P03_viewListPage] - back to saved page button is clicked
+[INFO] - {12-08-2025 18:55:45} [main] [Utils.Allure.AllureClass] - Add log to allure
+[INFO] - {12-08-2025 18:55:45} [main] [Listener.testNGlistener] - Test Case  addItemToList passed
+[INFO] - {12-08-2025 18:55:45} [main] [Listener.testNGlistener] - Test Case  removeFromList started
+[INFO] - {12-08-2025 18:55:47} [main] [Pages.P02_searchPage] - save button is clicked
+[INFO] - {12-08-2025 18:55:50} [main] [Pages.P02_searchPage] - remove button is clicked
+[INFO] - {12-08-2025 18:55:52} [main] [Pages.P02_searchPage] - Assert on remove toast is passed : Test automation removed from test automation list
+[INFO] - {12-08-2025 18:55:52} [main] [Utils.Allure.AllureClass] - Add log to allure
+[INFO] - {12-08-2025 18:55:52} [main] [Listener.testNGlistener] - Test Case  removeFromList passed
+[INFO] - {12-08-2025 18:55:56} [main] [Listener.testNGlistener] - Test Suite  Wikipedia demo finished
+[INFO] - {12-08-2025 18:55:56} [main] [Listener.testNGlistener] - Execution finished
