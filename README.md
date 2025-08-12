@@ -1,7 +1,7 @@
 <h1> Wikipedia Mobile App Automation</h1>
 
 <h2>## 📌 Project Overview</h2>
-This project automates an **End-to-End** testing flow for the **Wikipedia mobile application** using **Appium** with **Java**, **Maven**, **TestNG**, **Allure Reports**, and **Log4j2** for logging.  
+This project automates an end-to-end testing flow for the Wikipedia mobile application using Appium with Java, Maven, TestNG, Allure Reports, and Log4j2 for logging.  
 The framework is built using **Page Object Model (POM)** combined with the **Fluent Pattern** for better readability and maintainability.</br>
 
 ---
@@ -36,12 +36,12 @@ POM (Page Object Model): Separates page elements & actions from test scripts.
 
 Fluent Pattern: Allows method chaining for readable test flows.
 
-<h2> Run Tests</h2>h2></br>
+<h2> Run Tests</h2></br>
 mvn clean test -DsuiteXmlFile=testng.xml</br>
 mvn clean test
 </br>
 
-<h2>ogs & Reports</h2>
+<h2>Logs & Reports</h2>
 Logs: Generated automatically in /logs folder.
 
 Reports: Allure reports are stored in /allure-results and can be served via allure serve.
